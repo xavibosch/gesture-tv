@@ -1,0 +1,19 @@
+# Local config holds the TV pre-shared key and LAN address
+config.py
+
+# Virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Models are large, downloaded separately (see README)
+models/
+
+# Local document index: large, and contains personal document text
+*.pkl
+
+# macOS
+.DS_Store
